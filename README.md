@@ -8,10 +8,7 @@ This project is node.js back-end code for a movie booking application that can c
 
 •	You can create accounts for user as well as theatre owner.
 
-•	If the user is a customer, the account will automatically be approved on verification.
-
-I
-•	In case of theatre owner, an admin will have to approve the account. 
+•	If the user is a customer, the account will automatically be approved on verification. In case of theatre owner, an admin will have to approve the account. 
 
 •	JSON Web Token used for authentication. 
 
