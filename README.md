@@ -1,30 +1,57 @@
 # MovieTicketBooking_App
+
 This project is node.js back-end code for a movie booking application that can create various entities like users, movies, theatres, bookings and payments as well as perform various actions on them.
+
 ## Features 
+
 ### Account creation
+
 •	You can create accounts for user as well as theatre owner.
-•	If the user is a customer, the account will automatically be approved on verification. I
+
+•	If the user is a customer, the account will automatically be approved on verification.
+I
 •	n case of theatre owner, an admin will have to approve the account. 
+
 •	JSON Web Token used for authentication. 
+
 •	Users can also update some details like name, password and email. 
+
 •	Admin can update additional details like user Type and user Status. 
+
 •	User search is also available for users with proper authorization. 
+
 ### Movie API
+
 •	An admin can create a new movie, edit an existing movie and delete an existing movie.
-•	All registered users can get a list of all movies as well as a single movie using movie Id. 
+
+•	All registered users can get a list of all movies as well as a single movie using movie Id.
+
 ### Theatre API
+
 •	A theatre owner or an admin can create a new theatre, edit their existing theatre and delete their existing theatre. 
+
 •	All registered users can get a list of all theatres as well as a single theatre using theatre Id. 
+
 •	All registered users can get a list of all the movies released in a single theatre using theatre Id. A theatre owner or an admin can add or remove a new movie in an existing theatre. 
+
 ### Booking API
+
 •	All registered users can create a new booking and update their existing booking. 
+
 •	All registered users can get a list of all of their bookings as well as a single booking using booking Id. 
+
 •	An admin can get the list of all the bookings. 
+
 ### Payment API
+
 •	All registered users with a booking can create a payment for their booking. 
-•	All registered users can get a list of all of their payments as well as a single payment using payment Id. 
+
+•	All registered users can get a list of all of their payments as well as a single payment using payment Id.
+
 •	An admin can get the list of all the payments.
+
 ## Dependencies 
+
 ### npm modules 
 1.	express 
 2.	mongoose 
